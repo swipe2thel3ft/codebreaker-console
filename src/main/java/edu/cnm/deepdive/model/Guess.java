@@ -18,7 +18,7 @@ public class Guess {
   private int exactMatches;
 
   @Expose
-  private int nearMatched;
+  private int nearMatches;
 
   @Expose
   private boolean solution;
@@ -55,12 +55,12 @@ public class Guess {
     this.exactMatches = exactMatches;
   }
 
-  public int getNearMatched() {
-    return nearMatched;
+  public int getNearMatches() {
+    return nearMatches;
   }
 
-  public void setNearMatched(int nearMatched) {
-    this.nearMatched = nearMatched;
+  public void setNearMatches(int nearMatches) {
+    this.nearMatches = nearMatches;
   }
 
   public boolean isSolution() {
@@ -70,5 +70,6 @@ public class Guess {
   public void setSolution(boolean solution) {
     this.solution = solution;
   }
+
 
 }
